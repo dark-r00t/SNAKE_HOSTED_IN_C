@@ -14,9 +14,7 @@ char *ROOT;
 int listener, clients[MAX_CONNECTIONS];
 
 void error(char *);
-
 void startServer(char *);
-
 void respond(int);
 
 int
