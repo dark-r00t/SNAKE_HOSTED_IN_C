@@ -13,7 +13,6 @@
 char *ROOT;
 int listener, clients[MAX_CONNECTIONS];
 
-void error(char *);
 void startServer(char *);
 void respond(int);
 
@@ -61,7 +60,7 @@ main(int argc, char *argv[]) {
         clients[slot] = accept(listener, (struct sockaddr *) &addr_client, &addr_len);
 
         if (clients[slot] < 0) {
-            error("accept() error");
+            perror("accept() error");
         }
 
         if (fork() == 0) {
