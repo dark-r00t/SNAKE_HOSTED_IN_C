@@ -1,0 +1,22 @@
+#gameContainer{
+    text-align: center;
+}
+
+#gameBoard{
+    border: 5px solid;
+}
+
+#scoreText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100;
+}
+
+#resetButton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 50px;
+    cursor: pointer;
+}
