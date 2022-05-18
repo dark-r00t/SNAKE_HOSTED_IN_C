@@ -1,11 +1,11 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-#include<netdb.h>
-#include<sys/socket.h>
-#include<unistd.h>
-#include<arpa/inet.h>
-#include<fcntl.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <netdb.h>
+#include <sys/socket.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+#include <fcntl.h>
 
 #define MAX_CONNECTIONS 1000
 #define BYTES 1024
